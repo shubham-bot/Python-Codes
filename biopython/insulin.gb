@@ -1,0 +1,87 @@
+LOCUS       NM_001204686             968 bp    mRNA    linear   INV 17-AUG-2020
+DEFINITION  Aplysia californica insulin precursor (PIN), mRNA.
+ACCESSION   NM_001204686
+VERSION     NM_001204686.1
+KEYWORDS    RefSeq.
+SOURCE      Aplysia californica (California sea hare)
+  ORGANISM  Aplysia californica
+            Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+            Heterobranchia; Euthyneura; Euopisthobranchia; Aplysiida;
+            Aplysioidea; Aplysiidae; Aplysia.
+REFERENCE   1  (bases 1 to 968)
+  AUTHORS   Jakubowski JA, Hatcher NG, Xie F and Sweedler JV.
+  TITLE     The first gamma-carboxyglutamate-containing neuropeptide
+  JOURNAL   Neurochem. Int. 49 (3), 223-229 (2006)
+   PUBMED   16522341
+REFERENCE   2  (bases 1 to 968)
+  AUTHORS   Floyd PD, Li L, Rubakhin SS, Sweedler JV, Horn CC, Kupfermann I,
+            Alexeeva VY, Ellis TA, Dembrow NC, Weiss KR and Vilim FS.
+  TITLE     Insulin prohormone processing, distribution, and relation to
+            metabolism in Aplysia californica
+  JOURNAL   J. Neurosci. 19 (18), 7732-7741 (1999)
+   PUBMED   10479677
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF160192.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF160192.1 [ECO:0000332]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..968
+                     /organism="Aplysia californica"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:6500"
+     gene            1..968
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /note="insulin precursor"
+                     /db_xref="GeneID:100533403"
+     misc_feature    278..280
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /note="upstream in-frame stop codon"
+     CDS             311..781
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /codon_start=1
+                     /product="insulin precursor"
+                     /protein_id="NP_001191615.1"
+                     /db_xref="GeneID:100533403"
+                     /translation="MSKFLLQSHSANACLLTLLLTLASNLDISLANFEHSCNGYMRPH
+                     PRGLCGEDLHVIISNLCSSLGGNRRFLAKYMVKRDTENVNDKLRGILLNKKEAFSYLT
+                     KREASGSITCECCFNQCRIFELAQYCRLPDHFFSRISRTGRSNSGHAQLEDNFS"
+     sig_peptide     311..403
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     404..778
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /product="insulin"
+     misc_feature    764..766
+                     /gene="PIN"
+                     /gene_synonym="Insulin"
+                     /note="4-carboxyglutamate.
+                     /evidence=ECO:0000269|PubMed:16522341; propagated from
+                     UniProtKB/Swiss-Prot (Q9NDE7.1);
+                     gamma-carboxyglutamic-acid site"
+ORIGIN      
+        1 cctgaatata gccaactaaa ttctaggaac tctaagagga ctacgcttgt ctccaacatc
+       61 ttatcgtcaa catcttctgc aagcgataac tatatttctg gtccgccaaa gtagtatacg
+      121 ctaagaacaa gaggaagaga gtcgtaaggt tttttattcc cagccggcga gagcagaaac
+      181 tgttgttcta gctgcctttc tggtcttaac aggaccattt tgctggccag tgaaaaacta
+      241 actcgggtga aacaacattg gtgctaccag cctctcctga ctgttccaac ggtgccttct
+      301 cgtagccaga atgagcaagt tcctcctcca gagccactcc gccaacgcct gcctgctcac
+      361 ccttctgctc acgctggcct ccaacctcga catatccctg gccaacttcg agcactcgtg
+      421 caacggctac atgcggcccc acccgcgggg tctgtgcggc gaagacctgc acgtcatcat
+      481 ttccaacctg tgcagctctc tggggggcaa caggaggttc ctggccaagt acatggtcaa
+      541 aagagacacg gaaaatgtga acgacaagtt acgagggatc ctgctcaata agaaagaagc
+      601 tttctcctac ttgaccaaga gagaggcctc aggctccatc acatgcgaat gttgcttcaa
+      661 ccagtgtcgg atatttgagc tggctcagta ctgccgtctg ccagaccatt tcttctccag
+      721 aatatccaga accggaagga gcaacagtgg acatgcgcag ttggaggaca actttagtta
+      781 gacatgttga gggcgtaaat gcttttaaaa tttttaattt ggtgattatt attataaagg
+      841 aggagtccac gtggtgtcag atttagcggg ttttttccac gtgtttgact aaagtttcca
+      901 gatttatttc ataccagcga tacccgcagg aatagaaggt cccctaagaa gctgaaggca
+      961 ttattgat
+//
+

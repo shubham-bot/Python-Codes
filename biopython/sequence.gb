@@ -1,0 +1,62 @@
+LOCUS       OCOINS                   432 bp    mRNA    linear   ROD 27-APR-1993
+DEFINITION  Octodon degus insulin mRNA, complete cds.
+ACCESSION   M57671
+VERSION     M57671.1
+KEYWORDS    insulin; insulin alpha-chain; insulin beta-chain; insulin
+            connecting peptide.
+SOURCE      Octodon degus (degu)
+  ORGANISM  Octodon degus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricomorpha; Octodontidae; Octodon.
+REFERENCE   1  (bases 1 to 432)
+  AUTHORS   Nishi,M. and Steiner,D.F.
+  TITLE     Cloning of complementary DNAs encoding islet amyloid polypeptide,
+            insulin, and glucagon precursors from a New World rodent, the degu,
+            Octodon degus
+  JOURNAL   Mol. Endocrinol. 4 (8), 1192-1198 (1990)
+   PUBMED   2293024
+COMMENT     Original source text: Octodon degus pancreas, cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..432
+                     /organism="Octodon degus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10160"
+                     /tissue_type="pancreas"
+     gene            1..432
+                     /gene="insulin"
+     CDS             42..371
+                     /gene="insulin"
+                     /codon_start=1
+                     /product="insulin"
+                     /protein_id="AAA40590.1"
+                     /translation="MAPWMHLLTVLALLALWGPNSVQAYSSQHLCGSNLVEALYMTCG
+                     RSGFYRPHDRRELEDLQVEQAELGLEAGGLQPSALEMILQKRGIVDQCCNNICTFNQL
+                     QNYCNVP"
+     sig_peptide     42..113
+                     /gene="insulin"
+     mat_peptide     114..200
+                     /gene="insulin"
+                     /product="insulin B-chain"
+     mat_peptide     207..293
+                     /gene="insulin"
+                     /product="insulin C-peptide"
+     mat_peptide     300..368
+                     /gene="insulin"
+                     /product="insulin A-chain"
+     regulatory      414..419
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="insulin"
+     polyA_site      432
+                     /gene="insulin"
+ORIGIN      
+        1 gcattctgag gcattctcta acaggttctc gaccctccgc catggccccg tggatgcatc
+       61 tcctcaccgt gctggccctg ctggccctct ggggacccaa ctctgttcag gcctattcca
+      121 gccagcacct gtgcggctcc aacctagtgg aggcactgta catgacatgt ggacggagtg
+      181 gcttctatag accccacgac cgccgagagc tggaggacct ccaggtggag caggcagaac
+      241 tgggtctgga ggcaggcggc ctgcagcctt cggccctgga gatgattctg cagaagcgcg
+      301 gcattgtgga tcagtgctgt aataacattt gcacatttaa ccagctgcag aactactgca
+      361 atgtccctta gacacctgcc ttgggcctgg cctgctgctc tgccctggca accaataaac
+      421 cccttgaatg ag
+//
+

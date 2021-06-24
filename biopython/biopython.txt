@@ -1,0 +1,121 @@
+Biopython is colletion of modules and sub modules.
+It is set of freely  avaliable tools which will be used for biological computations.
+we can deal with dna and rna sequences.
+
+to install the biopython:-
+pip3 install biopython
+
+
+functions:-
+---------------
+
+function is a block of code which takes input to do some specific operations and produces the output
+
+if we create the functions we will not required to write same code again and again instead writing same code we have to just call that function.
+
+two types:-
+---------
+1)inbuilt functions:- the functions which are already present in the python len(),max() .....
+
+2)user defined function:-
+user can create their own function also
+
+syntax:-
+---------------------
+
+def function_name():
+	block of code
+
+
+function_name()
+
+we can also pass the parameter inside a function also.
+
+syntax:-
+--------------------
+
+def function_name(parameter1,parameter2..........):
+	block of code
+
+function_name()
+
+function can return the data as result.
+
+syntax:-
+----------------
+def function_name(paramter1,paramter2):
+	block of code
+
+function_name()
+
+
+class and objects:-
+-----------------------
+
+class is group of attributes and methods
+
+what is attributes?
+-------------
+it is represented by variable.
+a=40
+seq="ATCTGC"
+
+what is methods?
+-----------
+method which perform action or task.it is similar to function.
+
+object:-
+--------
+object is collection of data and methods which act on those data.
+
+
+class-> sketch of house
+it contains all information about doors windowns,..etc
+using info. we can build the house 
+that house is called object
+
+
+syntax:-
+--------
+
+class class_name:
+	
+	attributes
+
+
+in class and objects there are some reserved methods and reserved keywords are present.
+
+__init__():- this is reserved method in python	class.
+
+this methods is getting called when we create the object of that class.
+this method is used to initialise the attributes of the classes.
+
+self:-
+
+---------
+self keyword is used to access the data .
+
+object_name=class_name()
+
+
+modules:-
+---------
+modules are allows you to logically organize your python code.
+
+it is file containing python defination and python statements.
+
+import keyword is used to import any module  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,392 @@
+python is programming language.
+what is programming language?
+-------------------------------
+it is set of instructions which will be used to write particular code for the operations.
+it is also used for data manipulation.
+
+why python?
+----------------
+1)python has syntax same like our English language.
+2)it handles the large data
+3)it is rich in libraries. matpotlib.
+
+how to run the python code:-
+-------------------------
+there are two ways to run the python code:-
+-------------------------------------
+1)using command shell:-
+------------
+for command shell we have to just type in terminal python3
+
+akinola@nanopore:~/Desktop/Python$ gedit index.txt
+akinola@nanopore:~/Desktop/Python$ python3
+Python 3.6.9 (default, Jul 17 2020, 12:50:27) 
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 7+9000
+9007
+>>> 500*5000
+2500000
+>>> 400/4
+100.0
+>>> 50*10
+500
+>>> print("TAGCTGAGCTGAGCTATGCTATCGAGCGAGCAGCTAGCTAGCTAGCTGATC")
+TAGCTGAGCTGAGCTATGCTATCGAGCGAGCAGCTAGCTAGCTAGCTGATC
+>>> print("ttaaagggccc")
+ttaaagggccc
+>>> a=70
+>>> print(a)
+70
+>>> 
+>>> exit()
+akinola@nanopore:~/Desktop/Python$ 
+
+in command shell we can not save the code permantly
+
+2)create file and save with extension .py
+to create python file gedit file_name.py
+
+to run the python file in terminal just type python3 file_name.py
+
+Comments in python:-
+----------------------
+comments are used to describe particular line of code.
+
+two types of comments:-
+--------------------
+1)single line comments:-
+
+-------------------------
+it is denoted by #
+
+2)multiline comments:-
+-----------------------
+it starts with """ and ends with """
+or 
+it starts with ''' and ends with '''
+
+Data types and Variables:-
+-----------------------------
+data types are used to define which type of data will be used for the operation.
+two types:-
+-----------
+1)numeric data type:-
+--------------------------------
+i)integer data type:-
+-------------------------
+its a whole numbers 
+eg:-
+----
+77,45,-89,111,34555,0
+
+ii)float data type:-
+-----------------------
+it contains decimal point.
+eg:-
+2.45 ,-0.67 5.0 
+
+2)string data type:-
+--------------------------
+it is set of characters.
+it is defined in "" or in ''
+eg:-
+"AGCTGATCGTACGTAGGAGCTAC","python",'hello my name is shubam',"345"
+
+variable:-
+-------------------------
+variables are used to store the data.
+
+a=40
+DNA_seq="ATGCTAGCTGATCATCGATGCGATGCTGACT"
+
+
+
+
+type casting:-
+------------
+type casting is used to change the type of the data.
+type() function is used to check the type of the variable.
+
+
+
+input() function in python:-
+-------------------------------
+input function is used to accept the input from user at run time.
+syntax:-
+------------
+variable_name=int(input("any message....."))	#it will accpts only integer values
+variable_name=float(input("any message..."))	#it will accepts only float values
+variable_name=str(input("any message..."))	#it accepts only string data
+variable_name=input("any message..."))		#it accepts only string data
+
+operators in python:-
+----------------------
+operators are used to perform a particular operation.
+types of operators:-
+------------------------
+1)arithmetic operators:-
+--------------------------
++,-,*,/,%,**
+
+akinola@nanopore:~/Desktop/Python$ python3
+Python 3.6.9 (default, Jul 17 2020, 12:50:27) 
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 45+50
+95
+>>> 50*500
+25000
+>>> 4/2
+2.0
+>>> 4%2
+0
+>>> 3%2
+1
+>>> 4**3
+64
+>>> 12*12
+144
+>>> 2**4
+16
+>>> 
+
+2)conditional operators:-
+-------------------------
+>,<,>=,<=,==,!=
+
+>>> 5>0
+True
+>>> 5>10
+False
+>>> 5==5
+True
+>>> 5!=5.60
+True
+>>> 
+
+
+
+3)logical operators:-
+------------------------------------
+and or not
+
+>>> 5>0 and 5>3 and 4>2.45
+True
+>>> 5>10 and 5>3 and 4>3
+False
+>>> 6>0 or 5>10 or 5>4.65
+True
+>>> not (6>0)
+False
+>>> not (12>21)
+True
+>>> not (10>5)
+False
+>>> 
+
+in and not in operator:-
+-----------------------------
+in operators are used to find particular pattern present inside string or not.
+akinola@nanopore:~/Desktop/Python$ python3
+Python 3.6.9 (default, Jul 17 2020, 12:50:27) 
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> "ATGGC" in "TAGCTAGTAGCGATGGC"
+True
+>>> "TTTTT" in "CGTACTGCATTACTACTATTTTT"
+True
+>>> "CATTT" in "ATCGTCGATGCTCAGG"
+False
+>>> "CATTT" not in "ATCGTCGATGCTCAGG"
+True
+>>> exit()
+akinola@nanopore:~/Desktop/Python$
+
+Conditional Statements:-
+-------------------------
+if you want to perform a particular operation on the basis of condition on that conditional statements are used.
+
+1)if else:-
+--------------------
+if I studied in exam I will get good grades else i will fail
+
+syntax:-
+-------------------
+indentataion in python-> this indentation which indicate particular block of code 4spaces/1TAB
+
+if(condition):
+	block of code
+else:
+	block of code
+
+2)elif statement(else if):-
+---------------------
+if you want to check multiple condition on that time elif statement is used
+syntax:-
+
+---------------------
+
+if(condition1):
+	block of code
+elif(condition2):
+	block of code
+elif(condition3):
+	block of code
+:
+;
+:
+:
+;
+else:
+	block of code
+
+Loops:-
+------------
+loops are used to perform same operation multiple times until certain condition getting reached.
+there are three parameters are important in loop:-
+-----------------------------
+1)initialisation	2)condition	3)iteration(increment/decrement)
+
+two types of loops:-
+---------------------
+1)while loop:-
+------------
+
+syntax:-
+----------
+initialisation
+while(condition):
+	block of code
+	iteration(increment/decrement)
+
+For loop:-
+--------------------
+range():-
+--------------
+
+range function is used to display the particular from the given interval
+
+akinola@nanopore:~$ python2
+Python 2.7.17 (default, Jul 20 2020, 15:37:01) 
+[GCC 7.5.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> range(1,10)
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> range(5,20)
+[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> range(1,101,10)
+[1, 11, 21, 31, 41, 51, 61, 71, 81, 91]
+>>> range(20,200,5)
+[20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 175, 180, 185, 190, 195]
+>>> exit()
+akinola@nanopore:~$ python3
+Python 3.6.9 (default, Jul 17 2020, 12:50:27) 
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> range(10,30)
+range(10, 30)
+>>> exit()
+akinola@nanopore:~$
+
+in operator:-
+-----------------------
+if you want to find particular word in string on that time in operator will be used.
+
+syntax:-
+
+for variable_name in range():
+	block of code
+
+Collections in python:-
+-----------------------
+
+four types:-
+------
+1)list:- list is collections which is ordered ,changeable.it allows duplicate values
+list is defined in square brackets [].
+eg:-
+b=[345,56,6879,"TAGC"]
+
+---------------------------------------------------------------------------------------------
+2)tuple:- tuple is collection which ordered ,unchangeble. it allows duplicates values
+tuple is defined in round bracket()
+
+eg:-
+t1=(23,45,"TCGAT","python",-0.89,-600)
+--------------------------------------------------------------------------------------------
+3)set:- set is collection it is unordered,unindexed, No duplicate values allowed
+set is defined in curly brackets {}
+
+eg:-
+s1={234,"TGACT",80,-90.5,700}
+---------------------
+
+
+4)dictionary:-
+---------------
+it is also collection indexed changleable .
+it is stored in key-value pair
+it is defined in {}
+
+eg:-
+------
+d1={
+"gene_name=":"nucleotide",
+"geneid":"45678",
+"genelength":5000,
+"date":"4-7-2020"
+}
+
+
+file handling:-
+------------------
+python will allow user to handle the files in read write and append mode.
+
+open() this function is used to open any file
+
+syntax:-
+---------
+variable_name=open("path of file","mode of the file")
+eg:-
+
+f=open("/home/akinola/Desktop/Python/file handling/a.fasta","r")
+
+mode of the file:-
+---------------------
+three modes are present:-
+--------------------
+1)read:- to read any file (r)
+2)write:- to write something into a file (w)
+3)append :- to append content into a file (a)
+
+readline() :- this method is used to read a file line by line
+
+read() :- to read a whole file 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
